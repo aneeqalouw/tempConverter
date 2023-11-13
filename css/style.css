@@ -5,3 +5,23 @@
     padding: 0;
     box-sizing: border-box;
 }
+main {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    background-color: cornflowerblue;
+    padding: 35px;
+    border: darkblue solid 5px;
+}
+
+#btnConvert {
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    position: relative;
+    left: 180px;
+}
